@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTube</title>
+    <!-- tailwind link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- header section  -->
+    <header>
+        <section class="w-full  p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <img src="./Logo.png" alt="Logo" class="h-8">
+                <div class="view-button">
+                    <button id="sortButton" class="btn">Sort by View</button>
+                </div>
+                <div class="blog-button">
+                    <button id="blogButton" class="btn btn-primary">Blog</button>
+                </div>
+            </div>
+        </section>
+        <hr class="w-[80%] m-auto">
+    </header>
+
+    <!-- header scetion end  -->
+    <main>
+        <section>
+            <div class="button-container w-full">
+                <div id="button-group" class="flex flex-col md:flex-row justify-center items-center gap-4 py-5">
+                    <!-- Buttons go here -->
+                    <!-- <button class="btn">Button 1</button>
+                    <button class="btn">Button 2</button>
+                    <button class="btn">Button 3</button>
+                    <button class="btn">Button 4</button> -->
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="card-container"
+                class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                <!-- <div class="card card-compact w-[230px] bg-base-100 shadow-xl">
+                        <figure><img src="./assest/Rectangle 1 (1).png" alt="Shoes" class="w-[300px]" /></figure>
+                                <h2 class="card-title">Building a Winning </h2>
+                                <p>Awlad Hossain</p>
+                                <span>91k views</span>
+                        </div>
+                        </div> -->
+            </div>
+        </section>
+
+    </main>
+    <!-- javascript add  -->
+    <script src="js/setup.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
